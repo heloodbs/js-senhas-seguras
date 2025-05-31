@@ -41,7 +41,7 @@ function geraSenha(){
     if (checkbox[0].checked){
         alfabeto = alfabeto + letrasMaisculas;
     }
-    if (checkbox[1.checked]){
+    if (checkbox[1].checked)
         alfabeto = alfabeto + letrasMinusculas;
     }
     if (checkbox[2].checked){
@@ -59,7 +59,7 @@ function geraSenha(){
     campoSenha.value = senha;
     classificaSenha();
 
-}
+
 
 function classificaSenha(tamanhoAlfabeto){
     let entropia = tamanhoSenha * Math.log2(tamanhoAlfabeto);
